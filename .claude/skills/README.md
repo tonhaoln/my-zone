@@ -1,6 +1,6 @@
 # Skills
 
-This folder contains the method's seed skills. Each subfolder is one skill — `SKILL.md` is the file Claude Code reads for auto-discovery.
+This directory (`.claude/skills/`) contains the method's seed skills. Each subfolder is one skill — `.claude/skills/<name>/SKILL.md` is the path Claude Code reads for auto-discovery.
 
 ## When to build a skill
 
