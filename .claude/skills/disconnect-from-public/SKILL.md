@@ -1,6 +1,7 @@
 ---
 name: disconnect-from-public
 description: Disconnect this folder from the public repo it was cloned from, leaving a fresh local-only git history. Triggered by "/disconnect-from-public" or natural equivalents like "disconnect this from the public repo", "make this private", "disconnect this folder". Reads git state, surfaces what was found, proposes three operations for per-item operator approval. Idempotent — safe to invoke multiple times.
+disable-model-invocation: true
 ---
 
 ## Trigger condition
