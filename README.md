@@ -1,8 +1,8 @@
 # my-zone
 
-A folder of plain markdown that Claude Code reads at the start of every session. Your principles, your voice, your accumulating observations — files you own, on your machine, in a format that outlasts any tool. A small set of skills helps you maintain it.
+Context solves re-explaining. It doesn't compound on its own.
 
-For the longer reasoning, see [the encoding-knowledge post](#). This README is the install-and-run document.
+my-zone is a folder of plain markdown that Claude Code reads at the start of every session. Your principles, your voice, your accumulating observations — files you own, on your machine, in a format that outlasts any tool. A small set of skills closes the loop: sessions become material that refines the files over time.
 
 **Status:** prototype. Designed and used by one operator as a working system; shipped publicly as a signal artifact. Expect rough edges; not battle-tested across a wide range of operators.
 
@@ -59,7 +59,7 @@ The skills accept natural language. The formal trigger grammar lives in each `SK
 **Two files emerge from your practice, not from the clone:**
 
 - **`practice.md`** — your file-hygiene rules (folder structure, naming, archiving). Appears when you articulate the first one. Claude proposes creating it then; you approve.
-- **`signals-history.md`** — the archive split for `signals.md`. Appears when your signals file grows large enough that scanning it slows you down.
+- **`signals-history.md`** — the archive for `signals.md`. Appears in two cases: when your signals file grows large enough that scanning it slows you down, or when a creed-adjacent signal is promoted to `creed.md` and moved here as a record of how that entry got there.
 
 **Subdirectory `CLAUDE.md` files** are a native Claude Code pattern (a `CLAUDE.md` in a project folder loads when you open sessions there). Useful when a project has enough context to justify it; not scaffolded here because it should emerge from real need.
 
