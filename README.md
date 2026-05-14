@@ -2,6 +2,8 @@
 
 Context solves re-explaining. It doesn't compound on its own.
 
+For the longer reasoning, see [the post that prompted this repo](https://www.linkedin.com/posts/antonioal_ive-read-a-lot-about-second-brains-para-activity-7460455180791181312-nEHa).
+
 my-zone is a folder of plain markdown that Claude Code reads at the start of every session. Your principles, your voice, your accumulating observations — files you own, on your machine, in a format that outlasts any tool. A small set of skills closes the loop: sessions become material that refines the files over time.
 
 **Status:** prototype. Designed and used by one operator as a working system; shipped publicly as a signal artifact. Expect rough edges; not battle-tested across a wide range of operators.
